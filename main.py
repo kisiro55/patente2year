@@ -43,6 +43,8 @@ def determinar_año_patente(patente):
 # Streamlit app interface
 st.title('Buscador de año de su auto con la patente')
 
+st.image('logo.png', caption='kinamotorslogo')
+
 # User input for the license plate
 license_plate = st.text_input("Ingrese el nro de su patente para obtener el año de su auto")
 
