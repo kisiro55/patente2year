@@ -46,7 +46,7 @@ st.title('Buscador de año de su auto con la patente')
 # User input for the license plate
 license_plate = st.text_input("Ingrese el nro de su patente para obtener el año de su auto")
 
-if st.button('Find Car Year'):
+if st.button('Buscar el año'):
     if license_plate:  # Check if input is not empty
         year = determinar_año_patente(license_plate)
         st.success(f"El año del auto es: {year}")
