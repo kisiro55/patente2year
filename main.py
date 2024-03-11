@@ -26,7 +26,7 @@ def determinar_año_patente(patente):
     if len(patente) == 7:
         numero = int(patente[2:5])
         patentes_info = [
-            ('AF', 2023, 770), ('AF', 2022, 600), ('AF', 2021, 0),  # AF000AA y adelante para 2021
+            ('AG', 2024, 450),('AG', 2023, 300), ('AF', 2022, 600), ('AF', 2021, 0),  # AF000AA y adelante para 2021
             ('AE', 2021, 600), ('AE', 2020, 100), ('AE', 2019, 0),  # AE000AA y adelante para 2019
             ('AD', 2019, 400), ('AD', 2018, 0),  # AD000AA y adelante para 2018
             ('AC', 2018, 200), ('AC', 2017, 0),  # AC000AA y adelante para 2017
